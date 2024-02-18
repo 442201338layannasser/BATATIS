@@ -1,0 +1,12 @@
+export '../Archive/Costomer_SignUp.dart';
+export 'Costomer_SignIn.dart';
+export 'Cmainpage.dart';
+export 'COrder.dart';
+export '../Archive/CGroupOrderCart2 .dart';
+export 'CSettings.dart';
+export 'ViewMenuToCustomer.dart';
+export 'name.dart';
+export 'OTPscreen.dart';
+export 'RecievePage.dart';
+export 'waitingPage.dart';
+export 'SummaryPage.dart';

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "354908969166",
+    "project_id": "batatis14-ab827",
+    "storage_bucket": "batatis14-ab827.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354908969166:android:d412cb040b3c7c70df589f",
+        "android_client_info": {
+          "package_name": "com.example.batatis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "354908969166-tc8mi345kho3ipn9get352cnuqh7knij.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbEUF14573ijBu7dc5BF216IiI7GTSAhA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "354908969166-tc8mi345kho3ipn9get352cnuqh7knij.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

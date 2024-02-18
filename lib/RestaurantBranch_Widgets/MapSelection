@@ -1,0 +1,62 @@
+// import 'package:flutter/material.dart';
+// import 'package:flutter_google_maps/flutter_google_maps.dart';
+
+
+
+// // class MyApp extends StatelessWidget {
+// //   @override
+// //   Widget build(BuildContext context) {
+// //     return MaterialApp(
+// //       home: MapScreen(),
+// //     );
+// //   }
+// // }
+
+// class MapScreen extends StatefulWidget {
+//   @override
+//   _MapScreenState createState() => _MapScreenState();
+// }
+
+// class _MapScreenState extends State<MapScreen> {
+//   late FlutterGoogleMapsController mapController;
+//   LatLng? selectedLocation;
+
+//   @override
+//   Widget build(BuildContext context) {
+//     //  Scaffold(
+//     //   appBar: AppBar(
+//     //     title: Text('Select Location'),
+//     //   ),
+//    //   body:
+//       return Column(
+//         children: <Widget>[
+//           Expanded(
+//             child: FlutterGoogleMap(
+//               key: Key('map'),
+//               onMapCreated: (controller) {
+//                 setState(() {
+//                   mapController = controller;
+//                 });
+//               },
+//               initialPosition: LatLng(0.0, 0.0), // Initial map center
+//               mapType: MapType.terrain, // You can change the map type
+//               onTap: (location) {
+//                 setState(() {
+//                   selectedLocation = location;
+//                 });
+//               },
+//             ),
+//           ),
+//           if (selectedLocation != null)
+//             Padding(
+//               padding: const EdgeInsets.all(16.0),
+//               child: Text(
+//                 'Selected Location: ${selectedLocation!.latitude}, ${selectedLocation!.longitude}',
+//                 style: TextStyle(fontSize: 18.0),
+//               ),
+//             ),
+//         ],
+//       ),
+//     );
+//   }
+// }
